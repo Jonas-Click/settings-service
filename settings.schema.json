@@ -171,6 +171,18 @@
     "min": 0,
     "example": 10
   },
+  "scooter.handlebar-auto-lock-seconds": {
+    "type": "int",
+    "description": "Set how long the handlebar must be held at full left while parked to lock the scooter. Set to zero to disable handlebar auto-lock.",
+    "label": "Handlebar Auto-Lock Hold Time",
+    "user-visible": false,
+    "service": "vehicle-service",
+    "default": 3,
+    "unit": "seconds",
+    "min": 0,
+    "max": 5,
+    "example": 3
+  },
   "scooter.brake-hibernation": {
     "type": "enum",
     "description": "Allow hibernation to be initiated by holding both brake levers while parked.",
